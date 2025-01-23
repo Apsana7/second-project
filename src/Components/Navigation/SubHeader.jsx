@@ -4,7 +4,7 @@ import { SiMinutemailer } from "react-icons/si";
 
 function SubHeader() {
   return (
-    <div className=' border-b shadow-lg border-gray-700  flex items-center  justify-center py-2 text-gray-500'>
+    <div className='inset-0 bg-black opacity-20 object-cover  flex items-center  justify-center py-1 text-gray-100'>
      <div className='flex items-center justify-between w-3/4'>
 
      <div className='flex  gap-1 items-center'>

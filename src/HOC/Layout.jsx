@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from '../Components/Navigation/Header'
-import SubHeader from '../Components/Navigation/SubHeader'
+import Footer from '../Components/Navigation/Footer'
 import { Outlet } from 'react-router-dom'
 import MainNav from '../Components/Navigation/MainNav'
 
@@ -11,6 +10,7 @@ function Layout() {
     <div>
         <Outlet/>
     </div>
+    <Footer/>
   </div>
   )
 }
