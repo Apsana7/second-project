@@ -69,7 +69,7 @@ function Footer() {
                         {
                             openHours.map((val, i) => (
                                 <li key={i}>
-                                    <div className='flex justify-between'>
+                                    <div className='grid grid-cols-2 '>
                                         <div>{val.day}</div>
 
                                         <div>{val.hours}</div>
