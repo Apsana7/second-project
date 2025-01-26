@@ -36,6 +36,9 @@ function Banner() {
         <div className='relative'> 
 
             <div className="relative h-screen w-full mx-auto">
+                <div className='absolute h-full w-full z-10 bg-black object-cover opacity-40 top-0 left-0'></div>
+
+               
                 <Carousel
                     autoPlay
                     interval={3000}
@@ -60,6 +63,7 @@ function Banner() {
                     <h1 className="text-5xl font-bold mb-4">Feliciano</h1>
                     <h2 className="text-3xl">BEST RESTAURANT</h2>
                 </div>
+               
             </div>
 
             <div className='absolute bottom-0 w-full px-12 border-t border-gray-600 py-10   object-cover'>

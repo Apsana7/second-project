@@ -29,16 +29,17 @@ function Testimony() {
             <h2 className="text-4xl font-bold mb-8 text-center">Testimony</h2>
             <h3 className="text-3xl font-semibold mb-12 text-center">Happy Customer</h3>
 
-            <div className="w-3/4">
+            <div className="w-3/4 h-1/2">
                 <Carousel
-                    infiniteLoop
-                   showArrows={false}
-                   showStatus={false}
-                   centerMode
-                   centerSlidePercentage={33.33}
+                infiniteLoop
+                showArrows={false}
+                showStatus={false}
+                centerMode  
+                centerSlidePercentage={33.33}
                 >
+
                     {personDescription.map((person, index) => (
-                        <div key={index} className="flex flex-col gap-4 items-center">
+                        <div key={index} className=" ">
                             <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-gray-200">
                                 <img src={person.image} alt={person.name} className="w-full h-full object-cover" />
                             </div>
@@ -47,6 +48,7 @@ function Testimony() {
                             <p className="text-sm text-gray-500">{person.entity}</p>
                         </div>
                     ))}
+
                 </Carousel>
             </div>
         </div>

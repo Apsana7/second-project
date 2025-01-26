@@ -46,7 +46,7 @@ function Footer() {
     ];
 
     return (
-        <footer className="bg-black text-white py-10 h-[500px] mt-10  flex flex-col items-center justify-center">
+        <footer className="bg-black text-white py-10 h-[500px]   flex flex-col items-center justify-center">
             <div className="w-3/4 mx-auto flex flex-row justify-between  gap-20 py-4">
                 {/* Column 1 */}
                 <div>

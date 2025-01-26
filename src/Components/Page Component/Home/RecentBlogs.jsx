@@ -23,7 +23,7 @@ function RecentBlogs() {
         }
     ]
   return (
-    <div className='flex flex-col gap-10  items-center justify-center h-lvh'>
+    <div className='flex flex-col gap-10 bg-white items-center justify-center h-lvh'>
       <div className='text-5xl font-bold '>Recent Posts</div>
       <div className='grid grid-cols-3  gap-4 w-3/4 mx-auto'>
         {
