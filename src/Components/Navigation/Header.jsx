@@ -26,8 +26,16 @@ function Header() {
     return (
         <div className='    w-full z-10 border-b text-white border-gray-700 flex items-center justify-center h-20 py-8'>
             <div className=' flex  w-3/4 justify-between'>
-                <div className='text-2xl text-black font-bold '>Feliciano</div>
-                <div className='flex gap-10'>
+                <div className='text-2xl text-white font-bold '>Feliciano</div>
+
+                <div className='flex md:hidden'>
+                    a
+                </div>
+
+
+
+
+                <div className='md:flex gap-10 hidden'>
                     {
                         Page.map((val, i) => {
                             const paths = ["/", "/about", "/menu", "/stories", "/contact", "/book-a-table"];
@@ -38,7 +46,7 @@ function Header() {
                                     </Link> */}
                                     <Link
                                         to={paths[i]}
-                                        className={`py-3 ${i === 5 ? "bg-orange-300 py-3 px-4 rounded-lg hover:bg-red-500" : ""}`}
+                                        className={`py-3 ${i === 5 ? "bg-hora py-3 px-4 rounded-lg hover:bg-red-500" : ""}`}
                                     >
                                         {val.title}
                                     </Link>

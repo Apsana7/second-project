@@ -5,7 +5,12 @@ import MainNav from '../Components/Navigation/MainNav'
 
 function Layout() {
   return (
-  <div>
+  <div className='maindiv'> 
+  <img
+                src="coffee.jpg"
+                alt=""
+                className="w-full h-screen object-cover fixed -z-50 top-0 bottom-0"
+            />
     <MainNav/>
     <div>
         <Outlet/>

@@ -24,16 +24,16 @@ function Services() {
   ] 
   
   return (
-    <div className='h-lvh flex bg-white  items-center justify-center'>
+    <div className='h-lvh flex bg-gray-100  items-center justify-center'>
    
       <div className='flex flex-col w-3/4 mx-auto gap-4 items-center justify-center'>
       <h1 className='text-4xl text-orange-400'>Services</h1>
       <h1 className='text-4xl font-semibold '>Catering Services</h1>
-      <div className='grid grid-cols-3 gap-4 items-center mt-12   h-80'>
+      <div className='grid grid-cols-3 gap-4 items-center mt-12'>
         {
           cateringServices.map((val,i)=>{
             return(
-              <div key={i} className='flex flex-col items-center justify-center h-full border-black shadow-lg  '>
+              <div key={i} className='flex flex-col items-center justify-center'>
                 <div className='text-5xl text-center text-orange-300'>{val.icon}</div>
                 <div className='text-2xl text-center font-semibold mt-4'>{val.title}</div>
                 <div className='text-lg text-center text-gray-500 mt-4'>{val.description}</div>

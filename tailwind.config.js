@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+
 export default {
     content: [
       "./index.html",
@@ -6,7 +8,15 @@ export default {
     ],
   
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        hora:"#C8A97E"
+      },
+      fontFamily:{
+        cursive: ["Clicker Script"]
+      }
+      
+    },
   },
   plugins: [],
 }

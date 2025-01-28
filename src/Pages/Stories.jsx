@@ -1,9 +1,12 @@
 import React from 'react'
+import Blog from '../Components/Page Component/Stories/Blog'
+import Banner from '../Components/Page Component/Stories/Banner'
 
 function Stories() {
   return (
     <div>
-      Stories
+      <Banner/>
+      <Blog/>
     </div>
   )
 }
