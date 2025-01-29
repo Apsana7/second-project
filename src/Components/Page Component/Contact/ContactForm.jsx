@@ -84,7 +84,7 @@ function ContactForm() {
                 <button
                   type='submit'
                   disabled={isSubmitting}
-                  className='bg-hora text-white p-3 rounded-md font-semibold hover:bg-white hover:text-black transition-all w-3/4 self-center'
+                  className='bg-hora text-white p-3 rounded-md font-semibold hover:bg-white hover:text-black  transition-all w-3/4 self-center'
                 >
                   Submit
                 </button>

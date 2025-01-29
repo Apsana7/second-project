@@ -26,7 +26,7 @@ function Testimony() {
     ];
 
     return (
-        <div className="h-screen flex flex-col items-center justify-center bg-green-200">
+        <div className="h-screen flex flex-col items-center justify-center bg-white">
            <div className='flex flex-col gap-4'>
            <h2 className="top-[-60px] text-4xl font-bold   text-center">Testimony</h2>
            <h3 className="relative z-10 text-3xl font-semibold text-center">Happy Customer</h3>

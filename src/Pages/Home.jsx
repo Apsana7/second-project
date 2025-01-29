@@ -6,12 +6,14 @@ import Reservation from '../Components/Page Component/Home/Reservation'
 import Chefs from '../Components/Page Component/Home/Chefs'
 import Services from '../Components/Page Component/Home/Services'
 import AboutResturant from '../Components/Page Component/Home/AboutResturant'
+import Menu from '../Components/Page Component/Home/Menu'
 
 function Home() {
   return (
     <div>
       <Banner/>
       <AboutResturant/>
+      <Menu/>
       <Services/>
       <Chefs/>
       <Reservation/>

@@ -51,18 +51,18 @@ function Reservation() {
                     }}>
                     <Form className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  p-8 rounded-lg w-6/12'>
                         <div className='  h-lvh w-full flex items-center justify-center'>
-                            <div className='h-fit bg-gray-300  w-full
-                              flex items-center justify-center flex-col gap-6 py-8 shadow-lg rounded-lg '>
+                            <div className='h-fit py-16 bg-gray-200  w-full 
+                              flex items-center justify-center flex-col gap-6 shadow-lg rounded-lg '>
 
                                 <div className='flex items-center  -mt-14 justify-center'>
-                                    <h2 className="font-cursive relative text-5xl capitalize font-Cursive   text-hora">
+                                    <h2 className=" relative text-7xl capitalize font-cursive font-bold text-hora">
                                         Book a table
                                     </h2>
-                                    <h2 className="absolute z-10 mt-14 font-bold font-serif text-2xl text-gray-800">
+                                    <h2 className="absolute z-10 mt-14 font-bold text-2xl text-gray-800">
                                         Make Reservation
                                     </h2>
                                 </div>
-                                <div className='grid grid-cols-2 w-full p-4    gap-4'>
+                                <div className='grid grid-cols-2 w-full p-4  items-center justify-center   gap-4'>
                                     {
                                         personDetail.map((val, i) => {
                                             return (
