@@ -47,7 +47,7 @@ function Footer() {
 
     return (
         <footer className="bg-black text-white py-10 h-[500px]   flex flex-col items-center justify-center">
-            <div className="w-3/4 mx-auto flex flex-row justify-between  gap-20 py-4">
+            <div className="w-10/12 mx-auto flex flex-row justify-between  gap-20 py-4">
                 {/* Column 1 */}
                 <div>
                     <h2 className="font-bold text-xl mb-8">Feliciano</h2>
@@ -107,7 +107,7 @@ function Footer() {
                             placeholder="Enter email address"
                             className="p-2 mb-4 bg-gray-800 border border-gray-600 rounded text-gray-200 "
                         />
-                        <button className="bg-orange-500 text-white py-2 px-4 rounded hover:bg-orange-600">
+                        <button className="bg-hora text-white py-2 px-4 rounded hover:bg-orange-600">
                             Subscribe
                         </button>
                     </form>
@@ -117,7 +117,7 @@ function Footer() {
 
             </div>
 
-            <div className="text-center mt-8 text-gray-400 text-sm">
+            <div className="text-center mt-16 px-12 py-10 w-full text-gray-400 text-sm border-t border-gray-600">
                 Copyright ©2025 All rights reserved | This template is made with{" "}
                 <span className="text-red-500">♥</span> by Colorlib
             </div>

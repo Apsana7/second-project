@@ -26,11 +26,13 @@ function Testimony() {
     ];
 
     return (
-        <div className="h-screen flex flex-col items-center justify-center bg-gray-50">
-            <h2 className="text-4xl font-bold mb-8 text-center">Testimony</h2>
-            <h3 className="text-3xl font-semibold mb-12 text-center">Happy Customer</h3>
+        <div className="h-screen flex flex-col items-center justify-center bg-green-200">
+           <div className='flex flex-col gap-4'>
+           <h2 className="top-[-60px] text-4xl font-bold   text-center">Testimony</h2>
+           <h3 className="relative z-10 text-3xl font-semibold text-center">Happy Customer</h3>
+           </div>
 
-            <div className="w-3/4 h-2/3">
+            <div className="w-3/4 h-2/3  flex items-center justify-center">
                 <Carousel className=''
                     infiniteLoop
                     showArrows={false}
