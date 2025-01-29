@@ -27,18 +27,22 @@ function Testimony() {
 
     return (
         <div className="h-screen flex flex-col items-center justify-center bg-white">
-           <div className='flex flex-col gap-4'>
-           <h2 className="top-[-60px] text-4xl font-bold   text-center">Testimony</h2>
-           <h3 className="relative z-10 text-3xl font-semibold text-center">Happy Customer</h3>
-           </div>
+         <div className=' relative'>
+    <h1 className='text-8xl font-cursive absolute -top-14 text-hora'>Testimony</h1>
+    <h1 className='text-4xl font-semibold relative z-10 '>Happy Customer</h1>
+    </div>
 
             <div className="w-3/4 h-2/3  flex items-center justify-center">
                 <Carousel className=''
-                    infiniteLoop
+                    autoPlay  // Enables autoplay
+                    interval={3000}  // Sets autoplay interval to 3 seconds
+                    infiniteLoop  // Loops carousel endlessly
                     showArrows={false}
                     showStatus={false}
+                    showThumbs={false}
                     centerMode
                     centerSlidePercentage={33.33}
+                    stopOnHover={false}
                 >
 
                     {personDescription.map((person, index) => (

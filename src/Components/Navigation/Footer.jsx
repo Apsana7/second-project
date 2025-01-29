@@ -47,8 +47,8 @@ function Footer() {
 
     return (
         <footer className="bg-black text-white py-10 h-[500px]   flex flex-col items-center justify-center">
-            <div className="w-10/12 mx-auto flex flex-row justify-between  gap-20 py-4">
-                {/* Column 1 */}
+            <div className="w-3/4 mx-auto flex flex-row justify-between  gap-20 py-4">
+               
                 <div>
                     <h2 className="font-bold text-xl mb-8">Feliciano</h2>
                     <p className="text-gray-400 mb-4 w-56">
@@ -62,7 +62,7 @@ function Footer() {
                     </div>
                 </div>
 
-                {/* Column 2 */}
+              
                 <div className='w-[300px]'>
                     <h2 className='font-bold text-xl mb-8'>Open hours</h2>
                     <ul>
@@ -80,7 +80,7 @@ function Footer() {
                         }
                     </ul>
                 </div>
-                {/* Column 3 */}
+              
                 <div>
                     <h2 className="font-bold text-xl mb-8">Instagram</h2>
                     <div className="grid grid-cols-3 gap-1">
@@ -95,7 +95,7 @@ function Footer() {
                     </div>
                 </div>
 
-                {/* Column 4 */}
+               
                 <div>
                     <h2 className="font-bold text-xl mb-8">Newsletter</h2>
                     <p className="text-gray-400 mb-4">

@@ -7,8 +7,8 @@ function Banner() {
     <div>       
         <div className=' relative w-full h-[500px] object-cover' >
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-            <h1 className="text-8xl  font-cursive text-whitemb-4">Blog</h1>
-            <Link  to={"/"} className="text-2xl">Home</Link>
+            <h1 className="text-8xl font-cursive text-white mb-4">Book A Table</h1>
+            <Link  to={"/"} className="text-3xl underline">Home</Link>
             
         </div>
       </div>

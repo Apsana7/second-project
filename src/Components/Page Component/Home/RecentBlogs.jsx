@@ -28,7 +28,7 @@ function RecentBlogs() {
    
       <div className="relative flex flex-col items-center justify-center mt-8">
        
-        <h1 className="absolute text-8xl text-hora font-cursive font-semibold top-[-60px]">
+        <h1 className="absolute text-8xl text-hora font-cursive top-[-60px]">
           Blog
         </h1>
         
@@ -37,7 +37,7 @@ function RecentBlogs() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-3 mt-8 gap-8 w-10/12 mx-auto">
+      <div className="grid grid-cols-3 mt-8 gap-8 w-3/4 mx-auto">
         {images.map((val, i) => {
           return (
             <div key={i} className="flex flex-col gap-4 bg-white p-4 shadow-lg rounded-lg">

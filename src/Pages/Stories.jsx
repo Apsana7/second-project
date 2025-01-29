@@ -1,12 +1,12 @@
 import React from 'react'
-import Blog from '../Components/Page Component/Stories/Blog'
+import RecentBlogs from '../Components/Page Component/Home/RecentBlogs'
 import Banner from '../Components/Page Component/Stories/Banner'
 
 function Stories() {
   return (
     <div>
       <Banner/>
-      <Blog/>
+      <RecentBlogs/>
     </div>
   )
 }

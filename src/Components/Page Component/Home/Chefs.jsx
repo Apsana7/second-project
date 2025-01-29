@@ -28,10 +28,12 @@ function Chefs() {
         }
     ] 
   return (
-    <div className='h-lvh flex flex-col gap-10  bg-white items-center justify-center'>
-        <h1 className='absolute font-bold text-4xl text-orange-500 font-cursive -mt-96 tracking-wide'>Meet Our Chefs</h1>
-        <h2 className='relative z-10 mt-14 font-bold text-3xl text-gray-800'>Our Master Chefs</h2>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-10/12 mt-8'>
+    <div className='h-lvh flex flex-col gap-2  bg-white items-center justify-center'>
+        <div className='w-full relative flex flex-col items-center justify-center'>
+            <h1 className='text-8xl  absolute -top-14 text-hora font-cursive'>Meet Our Chefs</h1>
+            <h1 className='text-4xl font-semibold relative z-10'>Our Master Chefs</h1>
+        </div>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-3/4 mt-8'>
         {
             ChefsDetails.map((val,i)=>{
                 return(
@@ -39,7 +41,7 @@ function Chefs() {
                         <img src={val.Image} alt={val.Name} className='w-full h-80 object-cover transition-transform duration-300 hover:scale-105' />
                         <div className='font-semibold text-lg mt-4 text-center'>{val.Name}</div>
                         <div className='text-gray-500 mt-2 text-center'>{val.Post}</div>
-                        <div className='text-lg text-orange-500 flex justify-center gap-4 mt-4'>
+                        <div className='text-lg text-hora flex justify-center gap-4 mt-4'>
                             <FaTwitter />
                             <FaFacebook />
                             <FaGooglePlusG />

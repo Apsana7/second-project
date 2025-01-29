@@ -55,7 +55,7 @@ function Reservation() {
                               flex items-center justify-center flex-col gap-6 shadow-lg rounded-lg '>
 
                                 <div className='flex items-center  -mt-14 justify-center'>
-                                    <h2 className=" relative text-7xl capitalize font-cursive font-bold text-hora">
+                                    <h2 className=" relative text-7xl capitalize font-cursive  text-hora">
                                         Book a table
                                     </h2>
                                     <h2 className="absolute z-10 mt-14 font-bold text-2xl text-gray-800">

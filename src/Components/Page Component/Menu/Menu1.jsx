@@ -55,7 +55,7 @@ const Menu = () => {
   return (
     <div className='bg-white min-h-screen flex flex-col justify-center items-center p-8'>
       {/* Header Section */}
-      <div className=' w-full relative flex flex-col items-center justify-center'>
+      <div className=' w-full relative flex flex-col mt-10 items-center justify-center'>
         <h1 className='text-8xl  absolute -top-14 text-hora font-cursive'>Specialties</h1>
         <h1 className='text-4xl font-semibold relative z-10'>Our Menu</h1>
       </div>
