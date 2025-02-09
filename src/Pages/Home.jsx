@@ -10,15 +10,30 @@ import Menu from '../Components/Page Component/Home/Menu'
 
 function Home() {
   return (
-    <div>
+    <div className=''>
       <Banner/>
+
       <AboutResturant/>
-      <Menu/>
+
+      <div className='bg-gray-100 pt-20 '>
+      <Menu/> 
+      </div>
+
       <Services/>
+
+      <div className='bg-gray-100 py-36 '>
       <Chefs/>
+      </div>
+
       <Reservation/>
+
       <Testimony/>
+
+      
+      <div className='bg-gray-100'>
+
       <RecentBlogs/>
+      </div>
     </div>
   )
 }

@@ -26,17 +26,17 @@ function Testimony() {
     ];
 
     return (
-        <div className="h-screen flex flex-col items-center justify-center bg-white">
-         <div className=' relative'>
-    <h1 className='text-8xl font-cursive absolute -top-14 text-hora'>Testimony</h1>
-    <h1 className='text-4xl font-semibold relative z-10 '>Happy Customer</h1>
+        <div className="h-screen flex flex-col   items-center justify-center bg-white">
+         <div className='w-full relative flex flex-col items-center justify-center'>
+    <h1 className='lg:text-8xl text-6xl   font-cursive absolute -top-6 lg:-top-14 text-hora'>Testimony</h1>
+    <h1 className='lg:text-4xl  text-4xl font-semibold relative z-10 '>Happy Customer</h1>
     </div>
 
-            <div className="w-3/4 h-2/3  flex items-center justify-center">
+            <div className="w-3/4 h-2/3  overflow-clip flex items-center justify-center">
                 <Carousel className=''
-                    autoPlay  // Enables autoplay
-                    interval={3000}  // Sets autoplay interval to 3 seconds
-                    infiniteLoop  // Loops carousel endlessly
+                    autoPlay  
+                    interval={3000}  
+                    infiniteLoop  
                     showArrows={false}
                     showStatus={false}
                     showThumbs={false}

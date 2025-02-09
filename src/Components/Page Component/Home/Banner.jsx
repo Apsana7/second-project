@@ -89,6 +89,7 @@ function Banner() {
                     infiniteLoop
                     showThumbs={false}
                     renderIndicator={false}
+                    showArrows={false}
                 >
                     {
                         images.map((val, index) => {
@@ -109,8 +110,8 @@ function Banner() {
 
             </div>
 
-            <div className='absolute bottom-0 w-full px-12 border-t border-gray-900 py-10  text-white object-cover'>
-                <div className='flex justify-between'>
+            <div className='lg:absolute bg-gray-100 lg:bg-transparent bottom-0 w-full px-12 border-t border-gray-900 py-10  text-white object-cover'>
+                <div className='lg:flex grid grid-cols-2 justify-between'>
                     {foodItems.map((val, i) => (
                         <div key={i} className='text-center'>
                             <img

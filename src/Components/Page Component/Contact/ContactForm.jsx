@@ -69,7 +69,7 @@ function ContactForm() {
                       name={field.name}
                       type={field.type}
                       placeholder={field.placeholder}
-                      className={`p-3 border border-gray-300 rounded-md ${
+                      className={`p-3 border border-gray-500 resize-none rounded-md ${
                         field.type === 'textarea' ? 'h-32' : ''
                       } w-3/4`}
                     />

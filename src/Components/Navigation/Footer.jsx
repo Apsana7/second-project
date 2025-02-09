@@ -46,8 +46,8 @@ function Footer() {
     ];
 
     return (
-        <footer className="bg-black text-white py-10 h-[500px]   flex flex-col items-center justify-center">
-            <div className="w-3/4 mx-auto flex flex-row justify-between  gap-20 py-4">
+        <footer className="bg-black text-white py-10 h-fit    flex flex-col items-center justify-center">
+            <div className="w-3/4 mx-auto flex flex-col lg:flex-row justify-between  gap-20 py-14">
                
                 <div>
                     <h2 className="font-bold text-xl mb-8">Feliciano</h2>
@@ -63,8 +63,8 @@ function Footer() {
                 </div>
 
               
-                <div className='w-[300px]'>
-                    <h2 className='font-bold text-xl mb-8'>Open hours</h2>
+                <div className='w-full'>
+                    <h2 className='font-bold text-xl  mb-8'>Open hours</h2>
                     <ul>
                         {
                             openHours.map((val, i) => (
@@ -81,8 +81,8 @@ function Footer() {
                     </ul>
                 </div>
               
-                <div>
-                    <h2 className="font-bold text-xl mb-8">Instagram</h2>
+                <div className=' w-full '>
+                    <h2 className="font-bold text-xl  mb-8">Instagram</h2>
                     <div className="grid grid-cols-3 gap-1">
                         {instagramImages.map((image, index) => (
                             <img
@@ -97,7 +97,7 @@ function Footer() {
 
                
                 <div>
-                    <h2 className="font-bold text-xl mb-8">Newsletter</h2>
+                    <h2 className="font-bold text-xl mb-4">Newsletter</h2>
                     <p className="text-gray-400 mb-4">
                         Far far away, behind the word mountains, far from the countries.
                     </p>
@@ -107,7 +107,7 @@ function Footer() {
                             placeholder="Enter email address"
                             className="p-2 mb-4 bg-gray-800 border border-gray-600 rounded text-gray-200 "
                         />
-                        <button className="bg-hora text-white py-2 px-4 rounded hover:bg-orange-600">
+                        <button className="bg-hora text-white py-2  transition-all delay-75 ease-in-out duration-700 rounded hover:bg-orange-600">
                             Subscribe
                         </button>
                     </form>
@@ -117,7 +117,7 @@ function Footer() {
 
             </div>
 
-            <div className="text-center mt-16 px-12 py-10 w-full text-gray-400 text-sm border-t border-gray-600">
+            <div className="text-center  px-12 pt-10 w-full text-gray-400 text-sm border-t border-gray-600">
                 Copyright ©2025 All rights reserved | This template is made with{" "}
                 <span className="text-red-500">♥</span> by Colorlib
             </div>
