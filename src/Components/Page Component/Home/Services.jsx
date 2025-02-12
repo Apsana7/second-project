@@ -23,16 +23,17 @@ function Services() {
   ];
 
   return (
-    <div className='bg-white flex flex-col items-center justify-start py-16'>
+    <div className='bg-white h-full  flex flex-col items-center justify-start lg:py-20 py-16'>
       <div className='w-11/12 lg:w-3/4 mx-auto flex flex-col gap-8 items-center'>
       
-        <div className='relative mb-12 w-full'>
-          <h1 className='text-8xl font-cursive absolute top-0 left-0 w-full text-hora opacity-30 -z-10'>Services</h1>
-          <h1 className='text-4xl font-semibold text-center relative z-10'>Catering Services</h1>
+     
+         <div className='w-full relative flex flex-col items-center justify-center'>
+            <h1 className='lg:text-8xl text-6xl  absolute -top-6 lg:-top-14 text-hora font-cursive'>Services</h1>
+            <h1 className='lg:text-4xl text-4xl font-semibold relative z-10'>Catering Services</h1>
         </div>
 
       
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6 w-full'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6 w-full '>
           {cateringServices.map((val, i) => (
             <div 
               key={i} 

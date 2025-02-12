@@ -28,8 +28,8 @@ function Chefs() {
         }
     ] 
   return (
-    <div className='bg-gray-100 py-36  flex flex-col gap-2  h-auto  items-center justify-center'>
-        <div className='w-full relative flex flex-col items-center justify-center'>
+    <div className='bg-gray-100 lg:py-24 flex flex-col gap-2 py-16  h-full items-center justify-center'>
+        <div className='w-full relative flex flex-col items-center justify-center '>
             <h1 className='lg:text-8xl text-6xl  absolute -top-6 lg:-top-14 text-hora font-cursive'>Meet Our Chefs</h1>
             <h1 className='lg:text-4xl text-4xl font-semibold relative z-10'>Our Master Chefs</h1>
         </div>

@@ -111,7 +111,7 @@ function Banner() {
             </div>
 
             <div className='lg:absolute bg-gray-100 lg:bg-transparent bottom-0 w-full px-12 border-t border-gray-900 py-10  text-white object-cover'>
-                <div className='lg:flex grid grid-cols-2 justify-between'>
+                <div className='lg:flex grid grid-cols-2  gap-4 justify-between'>
                     {foodItems.map((val, i) => (
                         <div key={i} className='text-center'>
                             <img
@@ -119,8 +119,8 @@ function Banner() {
                                 alt={val.Title}
                                 className='w-28 h-28 rounded-full mx-auto object-cover'
                             />
-                            <h3 className='font-bold text-lg  mt-4'>{val.Title}</h3>
-                            <p className='text-gray-200'>{val.subTitle}</p>
+                            <h3 className='font-bold text-lg text-black lg:text-white mt-4'>{val.Title}</h3>
+                            <p className='lg:text-gray-200 text-black '>{val.subTitle}</p>
                         </div>
                     ))}
                 </div>

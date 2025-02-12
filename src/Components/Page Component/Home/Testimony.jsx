@@ -1,5 +1,4 @@
 import React from 'react';
-import SimpleImageSlider from "react-simple-image-slider";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -26,13 +25,13 @@ function Testimony() {
     ];
 
     return (
-        <div className="h-screen flex flex-col   items-center justify-center bg-white">
-         <div className='w-full relative flex flex-col items-center justify-center'>
+        <div className="h-full py-16 flex flex-col  items-center justify-center bg-white">
+         <div className='w-full relative  mt-4 flex flex-col items-center justify-center'>
     <h1 className='lg:text-8xl text-6xl   font-cursive absolute -top-6 lg:-top-14 text-hora'>Testimony</h1>
     <h1 className='lg:text-4xl  text-4xl font-semibold relative z-10 '>Happy Customer</h1>
     </div>
 
-            <div className="w-3/4 h-2/3  overflow-clip flex items-center justify-center">
+            <div className="w-3/4 h-2/3  mt-12 overflow-clip flex items-center justify-center">
                 <Carousel className=''
                     autoPlay  
                     interval={3000}  

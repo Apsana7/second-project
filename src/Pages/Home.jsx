@@ -15,13 +15,13 @@ function Home() {
 
       <AboutResturant/>
 
-      <div className='bg-gray-100 pt-20 '>
+      <div className='bg-gray-100 '>
       <Menu/> 
       </div>
 
       <Services/>
 
-      <div className='bg-gray-100 py-36 '>
+      <div className='bg-gray-100'>
       <Chefs/>
       </div>
 

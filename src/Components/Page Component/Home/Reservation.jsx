@@ -55,14 +55,14 @@ function Reservation() {
                               flex items-center justify-center flex-col gap-4 shadow-lg rounded-lg '>
 
                                 <div className='flex items-center -mt-14  justify-center'>
-                                    <h2 className=" relative lg:text-7xl text-6xl capitalize font-cursive pt-4 text-hora">
+                                    <h2 className=" relative lg:text-7xl text-5xl capitalize font-cursive pt-4 text-hora">
                                         Book a table
                                     </h2>
                                     <h2 className="absolute z-10 mt-14 font-bold text-2xl text-gray-800">
                                         Make Reservation
                                     </h2>
                                 </div>
-                                <div className='grid grid-cols-2 w-full lg:p-4  p-4  lg:w-full mt-6 items-center justify-center   gap-6'>
+                                <div className='lg:grid lg:grid-cols-2 w-full lg:p-4  p-4  lg:w-full mt-6 items-center justify-center   gap-6'>
                                     {
                                         personDetail.map((val, i) => {
                                             return (
