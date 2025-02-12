@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import { IoMenu, IoClose } from "react-icons/io5";
+import { IoMenu, } from "react-icons/io5";
 
 function Header() {
     const [isFixed, setIsFixed] = useState(false);
@@ -92,4 +92,3 @@ function Header() {
 }
 
 export default Header;
-
